@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+*{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px, 1fr 1fr ;
+    grid-template-rows: 250px, 250px, 250px 250px;
+    min-height: 100vh;
+    grid-template-areas: 
+    'header header header'
+    'main main'
+    'footer footer';
+    
+}
+
+.header{
+    width: 1fr;
+    height: 300px;
+    height: 200px;
+    background-color: grey;
+    border: 3px solid white;
+    margin: 10px;
+}
+
+.nav{
+    background: linear-gradient(to bottom, red, black);
+}
+
+.logo{
+    width: 200px;
+    
+}
+
+.title{
+    color: red;
+    float: right;
+    margin: 30px;
+    font-family: 'Audiowide', cursive;
+    font-size: 60px;
+
+}
+
+.navigation{
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: right;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: red;
+  }
+
+  .info{
+    width: 200px;
+    height: 100px;
+    float: right;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0px 30px 0px 30px;
+    margin: 100px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 15px;
+  
+  }
+
+  .foot{
+    background: linear-gradient(to right, red, grey);
+    width: 1fr;
+    height: 100px;
+    color: white;
+  }
+
+  .direitos{
+    background: linear-gradient(to right, red, grey);
+    margin: 10px;
+  }
+
+  .name{
+    color: white;
+    font-family: 'Audiowide', cursive;
+    font-size: 50px;
+    text-align: center;
+
+
+  }
